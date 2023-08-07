@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:hecolin_surveillance/SplashServices.dart';
 import 'package:hecolin_surveillance/View/HecolinTrialPreScreeningPage.dart';
-import 'package:hecolin_surveillance/View/LoginScreen.dart';
+import 'package:hecolin_surveillance/View/SplashScreen.dart';
 import 'Service/NotificationService.dart';
 
 import 'Utils/GeneralInformation.dart';
@@ -75,7 +76,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       //home: const HecolinTrialPreScreening(title: 'PRE-SCREENING LOG SHEET – HECOLIN TRIAL'),
-      home: const LoginScreen(),
+      home: const SplashScreen(),
     );
   }
 }
